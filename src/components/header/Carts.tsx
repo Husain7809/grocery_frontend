@@ -21,11 +21,11 @@ const Carts = () => {
   }
 
   
-  useEffect(() => {
-    setInterval(() => {
-      getCarLengthValue()
-    },100)
-  },[])
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     getCarLengthValue()
+  //   },100)
+  // },[])
 
   return (
     <div>
